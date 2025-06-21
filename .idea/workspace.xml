@@ -37,20 +37,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main_class">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Multiple_threading_concept" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main_class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multiplethread_Producer_consumer_interview_question.Main_class" />
+  <component name="RunManager" selected="Application.Autosaved_concept">
+    <configuration name="Autosaved_concept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Deamon_thread_reallifeexample.Autosaved_concept" />
       <module name="Multiple_threading_concept" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multiplethread_Producer_consumer_interview_question.*" />
+          <option name="PATTERN" value="Deamon_thread_reallifeexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +51,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main_lambada_exp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="without_Runnable_method_using_lambdaexp.Main_lambada_exp" />
+    <configuration name="Deamon_thread_main_class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Deamon_thread.Deamon_thread_main_class" />
       <module name="Multiple_threading_concept" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="without_Runnable_method_using_lambdaexp.*" />
+          <option name="PATTERN" value="Deamon_thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_clss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multiplethread_Join_method.Main_clss" />
+      <module name="Multiple_threading_concept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multiplethread_Join_method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multiplethread_suspend_resume_method.Main_thread" />
+      <module name="Multiple_threading_concept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multiplethread_suspend_resume_method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Single_main_class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Join_double_thread.Single_main_class" />
+      <module name="Multiple_threading_concept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Join_double_thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,9 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main_class" />
-        <item itemvalue="Application.Main_lambada_exp" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Autosaved_concept" />
+        <item itemvalue="Application.Deamon_thread_main_class" />
+        <item itemvalue="Application.Single_main_class" />
+        <item itemvalue="Application.Main_clss" />
+        <item itemvalue="Application.Main_thread" />
       </list>
     </recent_temporary>
   </component>
