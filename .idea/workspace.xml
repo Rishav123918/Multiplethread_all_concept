@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9422cea2-849e-493a-91cf-90d5217d76e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reentrent_part2_multipleobject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reentrent_part2_multipleobject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Semaphore_lock/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Semaphore_lock/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Reentrent_part2_multipleobject.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thread_pool.Main" />
       <module name="Multiple_threading_concept" />
@@ -120,11 +122,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reentrent_part2_multipleobject.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Semaphore_lock.Main" />
         <item itemvalue="Application.Stampedlock.Main" />
         <item itemvalue="Application.Readwrite_lock.Main" />
-        <item itemvalue="Application.Reentrent_part2_multipleobject.Main" />
       </list>
     </recent_temporary>
   </component>

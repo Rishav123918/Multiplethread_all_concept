@@ -26,7 +26,8 @@ public class Main {
 
 /*
 🔐 Semaphore Lock in Java
-A Semaphore is a count-based lock provided by Java’s java.util.concurrent package. It’s very useful when you want to limit the number of threads that can access a resource or section of code at the same time.
+A Semaphore is a count-based lock provided by Java’s java.util.concurrent package.
+It’s very useful when you want to limit the number of threads that can access a resource or section of code at the same time.
 ✅ What is a Semaphore?
 A Semaphore maintains a count (permits):
 When a thread acquires the semaphore, the count decreases.
