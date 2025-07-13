@@ -45,7 +45,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.create_threadpool_using_competable_future.main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thread_pool.Main" />
       <module name="Multiple_threading_concept" />
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stampedlock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stampedlock.Main" />
+    <configuration name="create_threadpool_using_competable_future.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="create_threadpool_using_competable_future.main" />
       <module name="Multiple_threading_concept" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stampedlock.*" />
+          <option name="PATTERN" value="create_threadpool_using_competable_future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,19 +112,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.create_threadpool_using_competable_future.main" />
       <item itemvalue="Application.main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Reentrent_part2_multipleobject.Main" />
       <item itemvalue="Application.Semaphore_lock.Main" />
-      <item itemvalue="Application.Stampedlock.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.create_threadpool_using_competable_future.main" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Reentrent_part2_multipleobject.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Semaphore_lock.Main" />
-        <item itemvalue="Application.Stampedlock.Main" />
       </list>
     </recent_temporary>
   </component>
