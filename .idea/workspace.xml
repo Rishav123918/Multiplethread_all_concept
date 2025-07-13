@@ -45,7 +45,20 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.create_threadpool_using_competable_future.main">
+  <component name="RunManager" selected="Application.Create_miniproject_cometablefuture_properties.main">
+    <configuration name="Create_miniproject_cometablefuture_properties.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Create_miniproject_cometablefuture_properties.main" />
+      <module name="Multiple_threading_concept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Create_miniproject_cometablefuture_properties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thread_pool.Main" />
       <module name="Multiple_threading_concept" />
@@ -65,19 +78,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Reentrent_part2_multipleobject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Semaphore_lock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Semaphore_lock.Main" />
-      <module name="Multiple_threading_concept" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Semaphore_lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,19 +112,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Create_miniproject_cometablefuture_properties.main" />
       <item itemvalue="Application.create_threadpool_using_competable_future.main" />
       <item itemvalue="Application.main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Reentrent_part2_multipleobject.Main" />
-      <item itemvalue="Application.Semaphore_lock.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Create_miniproject_cometablefuture_properties.main" />
         <item itemvalue="Application.create_threadpool_using_competable_future.main" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Reentrent_part2_multipleobject.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Semaphore_lock.Main" />
       </list>
     </recent_temporary>
   </component>
