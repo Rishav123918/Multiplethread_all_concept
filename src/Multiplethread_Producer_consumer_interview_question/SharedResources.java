@@ -28,7 +28,6 @@ public class SharedResources {
         }
         int item=bufferq.poll();
         System.out.println("Item is Consumed : "+ item);
-
         notifyAll();
         return item;
     }

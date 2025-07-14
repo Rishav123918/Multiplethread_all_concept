@@ -30,7 +30,7 @@ public class Shared_resources_1 {
         }
         finally {
             lock.writeLock().unlock();
-            System.out.println("Read lock Release by : "+ Thread.currentThread().getName());
+            System.out.println("Write lock Release by : "+ Thread.currentThread().getName());
         }
     }
 }

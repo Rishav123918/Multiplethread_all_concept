@@ -9,14 +9,14 @@ public class main {
     public static void main(String args[])throws Exception{
         ExecutorService exe= Executors.newFixedThreadPool(3);
 
-        Runnable task1=()-> System.out.println("Runnable running on thread "+Thread.currentThread().getName());
+        Runnable task1=(()-> System.out.println("Runnable running on thread "+Thread.currentThread().getName()));
 
         Future<?>f1=exe.submit(task1);
 
-        Callable<String>task2=()->{
+        Callable<String>task2=(()->{
             Thread.sleep(1000);
             return "Callable result from thread "+Thread.currentThread().getName();
-        };
+        });
 
         Future<String>f2=exe.submit(task2);
 

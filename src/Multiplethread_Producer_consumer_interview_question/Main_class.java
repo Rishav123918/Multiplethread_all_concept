@@ -6,11 +6,9 @@ public class Main_class {
         Thread producerthread=new Thread(()->{
             try{
                 for(int i=1;i<8;i++){
-
                     sharedResources.produce(i);
                 }
             }catch (Exception e){
-
             }
         });
 
@@ -20,7 +18,6 @@ public class Main_class {
                     sharedResources.consumer(i);
                 }
             }catch (Exception e){
-
             }
         });
         producerthread.start();
