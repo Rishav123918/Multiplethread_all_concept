@@ -9,6 +9,7 @@ public class main {
     public static void main(String args[])throws Exception{
         ExecutorService exe= Executors.newFixedThreadPool(3);
 
+
         Runnable task1=(()-> System.out.println("Runnable running on thread "+Thread.currentThread().getName()));
 
         Future<?>f1=exe.submit(task1);
