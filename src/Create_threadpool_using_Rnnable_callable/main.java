@@ -12,9 +12,9 @@ public class main {
 
         Runnable task1=(()-> System.out.println("Runnable running on thread "+Thread.currentThread().getName()));
 
-        Future<?>f1=exe.submit(task1);
+        Future<?> f1=exe.submit(task1);
 
-        Callable<String>task2=(()->{
+        Callable<String> task2=(()->{
             Thread.sleep(1000);
             return "Callable result from thread "+Thread.currentThread().getName();
         });
@@ -25,6 +25,8 @@ public class main {
         System.out.println("Callable result "+f2.get());
 
         exe.shutdown();
+
+
 
     }
 }
