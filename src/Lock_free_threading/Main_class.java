@@ -6,13 +6,13 @@ public class Main_class {
 
         // Create multiple threads to increment the counter
         Thread t1 = new Thread(() -> {
-            for (int i = 0; i < 1000; i++) {
+            for (int i = 0; i < 10; i++) {
                 counter.increment();
             }
         });
 
         Thread t2 = new Thread(() -> {
-            for (int i = 0; i < 1000; i++) {
+            for (int i = 0; i < 10; i++) {
                 counter.increment();
             }
         });
@@ -47,9 +47,6 @@ Avoids deadlocks and thread starvation.
 🔁 What Is CAS?
 CAS is an atomic CPU-level instruction used to update a value only if it matches an expected value.
 
-text
-Copy
-Edit
 if (current_value == expected_value) {
     current_value = new_value;
     return true;
@@ -57,9 +54,7 @@ if (current_value == expected_value) {
     return false;
 }
 🔧 Java Example:
-java
-Copy
-Edit
+
 AtomicInteger counter = new AtomicInteger(0);
 
 // Atomically increment only if value is still 0

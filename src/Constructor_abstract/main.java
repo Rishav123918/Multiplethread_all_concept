@@ -9,7 +9,7 @@ abstract class animal{
 }
 class dog extends animal{
    public dog(){
-//       super(animal);
+       super();
        System.out.println("ffff");
     }
 }

@@ -39,3 +39,28 @@ public class shared_resouresc1 {
         }
     }
 }
+/*
+This line does not block or acquire a traditional lock — it simply assumes that no other thread will write to the variable a during the read and update operation.
+This is called optimistic locking.
+
+| Method       | Lock Type           | Description                                         |
+| ------------ | ------------------- | --------------------------------------------------- |
+| `producer()` | ✅ Optimistic Lock   | Assumes no conflict; checks later with `validate()` |
+| `consume()`  | 🔒 Pessimistic Lock | Acquires exclusive write lock to update             |
+
+
+The read operation (producer()) is not stopped while a write is happening,
+but its result may be invalid, so it will rollback if validate() fails.
+
+
+🔁 What Happens at Runtime?
+Let’s say both producer() and consume() run concurrently:
+producer() calls tryOptimisticRead() — it proceeds assuming no one will write.
+consume() then grabs the writeLock() and updates a.
+After sleeping 10 seconds, producer() calls validate(stamp).
+Since a write happened, validate() returns false.
+producer() rolls back its changes.
+✅ So:
+Read is not blocked, but it will detect interference later and rollback
+Write is exclusive, and blocks real readers (like readLock()), but not optimistic ones.
+ */

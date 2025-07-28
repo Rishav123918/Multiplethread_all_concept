@@ -33,7 +33,7 @@ public class main {
             return discounted;
         });
 
-        CompletableFuture<Double>tax=discountedprices.thenApply(price->{
+        CompletableFuture<Double>tax=discountedprices.thenApply((price)->{
             double tax1 = price * 0.18;
             return price + tax1;
         });

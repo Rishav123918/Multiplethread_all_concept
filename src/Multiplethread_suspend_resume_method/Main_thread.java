@@ -1,7 +1,7 @@
 package Multiplethread_suspend_resume_method;
 
 public class Main_thread {
-    public static void main(String args[]) {
+    public static void main(String args[]) throws InterruptedException{
         shared_resources s = new shared_resources();
         Thread t1 = new Thread(() -> {
             try {
