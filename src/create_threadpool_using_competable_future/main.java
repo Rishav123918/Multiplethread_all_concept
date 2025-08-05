@@ -54,7 +54,7 @@ Each of these checks may involve a call to internal microservices or even extern
 
 
      /*
-    ✅ Real-Life Scenario: LinkedIn Notifications Panel
+ ✅ Real-Life Scenario: LinkedIn Notifications Panel
 🎯 Goal:
 When a user clicks on the 🔔 Notifications tab, LinkedIn must quickly show a personalized list, which may include:
 ✅ Job Alerts — New jobs matching profile

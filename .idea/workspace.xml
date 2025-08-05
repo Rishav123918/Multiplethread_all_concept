@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9422cea2-849e-493a-91cf-90d5217d76e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Constructor_abstract/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constructor_abstract/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Create_miniproject_cometablefuture_properties/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Create_miniproject_cometablefuture_properties/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lock_free_threading/Main_class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lock_free_threading/Main_class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multiplethread_suspend_resume_method/Main_thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multiplethread_suspend_resume_method/Main_thread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multithread_part2_consumer_producer/Main_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithread_part2_consumer_producer/Main_method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reentrant_lock/sharedresources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reentrant_lock/sharedresources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stampedlock/shared_resouresc1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stampedlock/shared_resouresc1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread_pool/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread_pool/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +44,7 @@
     "Application.Constructor_abstract.main.executor": "Run",
     "Application.Deamon_thread_main_class.executor": "Run",
     "Application.Lock_free_threading.Main_class.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Main_class.executor": "Run",
     "Application.Main_class_.executor": "Run",
     "Application.Main_method.executor": "Run",
@@ -71,13 +65,26 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.even_print.main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Constructor_abstract.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Constructor_abstract.main" />
       <module name="Multiple_threading_concept" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Constructor_abstract.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread_pool.Main" />
+      <module name="Multiple_threading_concept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread_pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,19 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread_.main" />
-      <module name="Multiple_threading_concept" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="optmistic_lock.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="optmistic_lock.main" />
       <module name="Multiple_threading_concept" />
@@ -138,19 +132,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Constructor_abstract.main" />
       <item itemvalue="Application.even_print.main" />
       <item itemvalue="Application.Semaphore_example.main" />
       <item itemvalue="Application.optmistic_lock.main" />
-      <item itemvalue="Application.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.even_print.main" />
         <item itemvalue="Application.Constructor_abstract.main" />
         <item itemvalue="Application.optmistic_lock.main" />
         <item itemvalue="Application.Semaphore_example.main" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>

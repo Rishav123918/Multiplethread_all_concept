@@ -33,12 +33,12 @@ public class main {
             return discounted;
         });
 
-        CompletableFuture<Double>tax=discountedprices.thenApply((price)->{
+        CompletableFuture<Double>tax=discountedprices.thenApply((price)->{//run in same thread
             double tax1 = price * 0.18;
             return price + tax1;
         });
 
-        tax.thenAcceptAsync(Finalprice->{
+        tax.thenAcceptAsync(Finalprice->{//run in different thread
             System.out.println("Final price is :"+Finalprice);
         },exe);
 

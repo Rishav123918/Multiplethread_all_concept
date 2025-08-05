@@ -40,6 +40,7 @@ class CustomRejectedHandler implements RejectedExecutionHandler {
     public void rejectedExecution(Runnable r, ThreadPoolExecutor executor) {
         System.out.println("Task denied: " + r.toString());
     }
+
 }
 
 // Custom thread factory to track thread creation
@@ -54,3 +55,9 @@ class CustomThreadFactory implements ThreadFactory {
         return th;
     }
 }
+/*
+✅ Summary
+You call submit()
+It internally calls execute()
+That internally calls addWorker()
+ */
