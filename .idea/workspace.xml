@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9422cea2-849e-493a-91cf-90d5217d76e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread_pool/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread_pool/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,33 +37,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Autosaved_concept.executor": "Run",
-    "Application.Constructor_abstract.main.executor": "Run",
-    "Application.Deamon_thread_main_class.executor": "Run",
-    "Application.Lock_free_threading.Main_class.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main_class.executor": "Run",
-    "Application.Main_class_.executor": "Run",
-    "Application.Main_method.executor": "Run",
-    "Application.Semaphore_example.main.executor": "Run",
-    "Application.Single_main_class.executor": "Run",
-    "Application.even_print.main.executor": "Run",
-    "Application.main.executor": "Run",
-    "Application.optmistic_lock.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Rishav Jain/Desktop/Multiple_threading_concept",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Autosaved_concept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Constructor_abstract.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Deamon_thread_main_class.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lock_free_threading.Main_class.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_class.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_class_.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_method.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Semaphore_example.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Single_main_class.executor&quot;: &quot;Run&quot;,
+    &quot;Application.even_print.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.optmistic_lock.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rishav Jain/Desktop/Multiple_threading_concept&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Constructor_abstract.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Constructor_abstract.main" />
